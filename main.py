@@ -9,7 +9,7 @@ import streamlit as st
 
 
 llm = init_chat_model(
-    model="gemini-3.1-flash",  # 또는 사용할 정확한 Gemini 모델 ID
+    model="gemini-3.8-flash",  # 또는 사용할 정확한 Gemini 모델 ID
     model_provider="google_genai",
     temperature=0
 )
