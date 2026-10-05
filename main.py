@@ -9,7 +9,7 @@ import streamlit as st
 
 
 
-llm = init_chat_model( model="google_genai:gemini-3.8-flash", temperature=0)
+llm = init_chat_model( model="gemini-3.8-flash",model_provider="google_genai", temperature=0)
 
 # 프롬프트 템플릿 생성
 prompt = ChatPromptTemplate.from_messages(
