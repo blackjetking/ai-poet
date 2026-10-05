@@ -50,7 +50,7 @@ os.environ["GOOGLE_API_KEY"] = api_key
 # ============================================================
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.1-flash-lite-preview",
+    model="gemini-3.8-flash",
     api_key=api_key,
     temperature=0.7,
 )
