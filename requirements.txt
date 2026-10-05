@@ -1,0 +1,16 @@
+Streamlit Web Framework
+
+streamlit
+
+LangChain Core Framework
+
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+LLM Providers (사용하시는 모델 제공자에 맞춰 추가/선택)
+
+langchain-openai       # OpenAI (GPT-3.5, GPT-4 등) 사용 시 필요
+
+langchain-google-genai # Google Gemini 사용 시 주석 해제
+
+langchain-anthropic    # Anthropic Claude 사용 시 주석 해제
