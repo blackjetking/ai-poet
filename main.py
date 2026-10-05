@@ -8,8 +8,11 @@ from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
 
 
-
-llm = init_chat_model( model="gemini-3.8-flash",model_provider="google_genai", temperature=0)
+llm = init_chat_model(
+    model="gemini-3.1-flash",  # 또는 사용할 정확한 Gemini 모델 ID
+    model_provider="google_genai",
+    temperature=0
+)
 
 # 프롬프트 템플릿 생성
 prompt = ChatPromptTemplate.from_messages(
