@@ -16,7 +16,7 @@ if api_key:
 
 # 2. LLM 직접 초기화 (api_key 명시 전달)
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.8-flash",  # 또는 "gemini-1.5-pro"
+    model="gemini-3.1-flash-lite-preview",  # 또는 "gemini-1.5-pro"
     google_api_key=api_key,
     temperature=0.7
 )
