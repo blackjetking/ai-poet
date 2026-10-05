@@ -1,6 +1,6 @@
 import os
 
-# from dotenv import load_dotenv
+
 
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
@@ -8,14 +8,6 @@ from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
 
 
-# .env 파일 로드
-# load_dotenv()
-
-# Gemini API Key 확인
-# api_key = os.getenv("GOOGLE_API_KEY")
-
-if not api_key:
-    raise ValueError("GOOGLE_API_KEY 설정되지 않았습니다.")
 
 llm = init_chat_model( model="google_genai:gemini-3.1-flash-lite-preview", temperature=0)
 
