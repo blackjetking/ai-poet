@@ -19,6 +19,8 @@ if "GOOGLE_API_KEY" in st.secrets:
 elif "GEMINI_API_KEY" in st.secrets:
     api_key = st.secrets["GEMINI_API_KEY"]
 
+
+
 st.write("GOOGLE_API_KEY 존재:", "GOOGLE_API_KEY" in st.secrets)
 
 # ============================================================
