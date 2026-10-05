@@ -12,7 +12,7 @@ import streamlit as st
 # load_dotenv()
 
 # Gemini API Key 확인
-api_key = os.getenv("GOOGLE_API_KEY")
+# api_key = os.getenv("GOOGLE_API_KEY")
 
 if not api_key:
     raise ValueError("GOOGLE_API_KEY 설정되지 않았습니다.")
